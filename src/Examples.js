@@ -107,7 +107,7 @@ function ColorPicker() {
             onClick={handleDropperClick}
             title={isEyeDropperSupported() ? "Pick color from screen" : "Color picker not supported in Firefox"}
           >
-            🎨
+            💉
           </button>
         </div>
         {showBrowserMessage && !isEyeDropperSupported() && (
@@ -182,7 +182,7 @@ function ReverseColorPicker() {
             onClick={handleDropperClick}
             title={isEyeDropperSupported() ? "Pick color from screen" : "Color picker not supported in Firefox"}
           >
-            🎨
+            💉
           </button>
         </div>
         {error && <p style={{ color: '#ff4444' }}>{error}</p>}
